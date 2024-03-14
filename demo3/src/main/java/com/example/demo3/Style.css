@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Set margin and padding to 0 for the body */
+body {
+    -fx-margin: 0;
+    -fx-padding: 0;
+}
+
+/* Style the root BorderPane */
+.border-pane {
+    -fx-background-color: #f4f4f4; /* Set background color */
+    -fx-padding: 10px; /* Set padding around the border pane */
+}
+
+/* Style the VBox containing the ImageView and navigation controls */
+.vbox {
+    -fx-spacing: 10px; /* Set spacing between children */
+    -fx-alignment: center; /* Center align the children */
+}
+
+/* Style the thumbnail ImageView */
+.thumbnail-image-view {
+    -fx-border-color: #333; /* Set border color */
+    -fx-border-width: 1px; /* Set border width */
+}
+
+/* Style the navigation controls (buttons) */
+.button {
+    -fx-padding: 5px 10px; /* Set padding inside the buttons */
+    -fx-background-color: #333; /* Set background color of the buttons */
+    -fx-text-fill: white; /* Set text color of the buttons */
+}
+
+.button:hover {
+    -fx-background-color: #555; /* Change background color on hover */
+}
